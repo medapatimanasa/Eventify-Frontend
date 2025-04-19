@@ -101,7 +101,7 @@ export default function EventCreatePage() {
       formDataObj.append("organizer", user._id);
 
       const response = await axios.post(
-        "https://ems-backend-9cfa.onrender.com/api/events",
+        "https://ems-backend-9cfa.onrender.com/events",
         formDataObj,
         {
           withCredentials: true,
